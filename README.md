@@ -32,7 +32,8 @@
 7. [SOIL_CHEM](https://github.com/akivo4ka/soil/blob/main/soil_chem.xlsx) - Химические свойства почв (http://egrpr.esoil.ru/content/1svo.html)
 8. [SOIL_PHYS](https://github.com/akivo4ka/soil/blob/main/soil_phys.xlsx) - Физические свойства почв (http://egrpr.esoil.ru/content/1svo.html)
 
-**[SOIL_DATA]**(https://github.com/akivo4ka/soil/blob/main/soil_data.xlsx) - Описание свойств для каждого типа почвы (http://egrpr.esoil.ru/content/1DB.html)
+**[SOIL_DATA](https://github.com/akivo4ka/soil/blob/main/soil_data.xlsx)** - Описание свойств для каждого типа почвы (http://egrpr.esoil.ru/content/1DB.html)
+
 Описание некоторых колонок данной таблицы:
 * HISMMN - очень похоже на обозначение почевнных горизонтов, однако как их сопоставить, мне осталось непонятно (?)
 * HISMSM - дополнительное свойство почвенных горизонтов (SOIL_ADD_HORIZONS)
