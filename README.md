@@ -41,7 +41,7 @@
 * LOSA-TEXTPHS - химические свойства почв (SOIL_CHEM)
 * GRSCMP-ADPHYS - физические свойства почв (SOIL_PHYS)
 
-Можно заметить, что таблицы SOIL_MAIN_HORIZONS, SOIL_MORPH_ELEM не имеют связей с таблицей SOIL_DATA.
+(!) Важно заметить, что таблицы SOIL_MAIN_HORIZONS, SOIL_MORPH_ELEM не имеют связей с таблицей SOIL_DATA.
 
 **Геометрическая часть**
 * Таблица полигонов (http://egrpr.esoil.ru/content/1geo.html)
@@ -49,3 +49,13 @@
 2. [SOIL_MAP_LEGEND](https://github.com/akivo4ka/soil/blob/main/soil_map_legend.xlsx)
 3. [SOIL_MAP_PARENT_LEGEND](https://github.com/akivo4ka/soil/blob/main/soil_map_parent_legend.xlsx)
 * Таблица композиции полигонов (http://egrpr.esoil.ru/content/1DB.html#composition)
+
+**Python** скрипты для создания и заполнения таблиц данными из excel-файлов:
+* Создание таблиц: [ipynb](https://github.com/akivo4ka/soil/blob/main/create_tables.ipynb) / [py](https://github.com/akivo4ka/soil/blob/main/create_tables.py)
+* Заполнение таблиц: [ipynb](https://github.com/akivo4ka/soil/blob/main/insert_tables.ipynb) / [py](https://github.com/akivo4ka/soil/blob/main/insert_tables.py)
+
+(!) На данный момент следующие таблицы не заполнены:
+* SOIL_DATA_ADD_HORIZONS
+* SOIL_DATA_MORPH
+* SOIL_DATA_CHEM
+* SOIL_DATA_PHYS
