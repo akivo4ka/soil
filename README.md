@@ -35,13 +35,13 @@
 **[SOIL_DATA](https://github.com/akivo4ka/soil/blob/main/soil_data.xlsx)** - Описание свойств для каждого типа почвы (http://egrpr.esoil.ru/content/1DB.html)
 
 Описание некоторых колонок данной таблицы:
-* HISMMN - очень похоже на обозначение почевнных горизонтов, однако как их сопоставить, мне осталось непонятно (?)
+* HISMMN - очень похоже на обозначение почевнных горизонтов, однако как их сопоставить, мне осталось непонятно :question:
 * HISMSM - дополнительное свойство почвенных горизонтов (SOIL_ADD_HORIZONS)
 * MOISTR-ADDMRF - морфологические свойства почв (SOIL_MORPH)
 * LOSA-TEXTPHS - химические свойства почв (SOIL_CHEM)
 * GRSCMP-ADPHYS - физические свойства почв (SOIL_PHYS)
 
-(!) Важно заметить, что таблицы SOIL_MAIN_HORIZONS, SOIL_MORPH_ELEM не имеют связей с таблицей SOIL_DATA.
+:exclamation: Важно заметить, что таблицы SOIL_MAIN_HORIZONS, SOIL_MORPH_ELEM не имеют связей с таблицей SOIL_DATA.
 
 **Геометрическая часть**
 * Таблица полигонов (http://egrpr.esoil.ru/content/1geo.html)
@@ -54,7 +54,7 @@
 * Создание таблиц: [ipynb](https://github.com/akivo4ka/soil/blob/main/create_tables.ipynb) / [py](https://github.com/akivo4ka/soil/blob/main/create_tables.py)
 * Заполнение таблиц: [ipynb](https://github.com/akivo4ka/soil/blob/main/insert_tables.ipynb) / [py](https://github.com/akivo4ka/soil/blob/main/insert_tables.py)
 
-(!) На данный момент следующие таблицы не заполнены:
+:exclamation: На данный момент следующие таблицы не заполнены:
 * SOIL_DATA_ADD_HORIZONS
 * SOIL_DATA_MORPH
 * SOIL_DATA_CHEM
