@@ -18,3 +18,24 @@
 ![image](https://user-images.githubusercontent.com/8759199/124814421-e1e89200-df5d-11eb-9fb0-9eb35af193cb.png)
 
 Отмечу, что на странице SOIL_DATA некоторые колонки выделены цветом - в зависимости от типа свойства (химическое, физическое).
+
+Описание данных
+(если в excel-файле несколько страниц, то актуальной является страница с название data)
+
+**Семантическая часть**
+1. [SOIL_SEM](https://github.com/akivo4ka/soil/blob/main/soil_sem.xlsx) - Список почв ЕГРП - 205 типов почв (http://egrpr.esoil.ru/content/1sem.html) 
+2. [SOIL_MAIN_HORIZONS](https://github.com/akivo4ka/soil/blob/main/soil_main_horizons.xlsx) - Почвенные горизонты: органические, органо-минеральные, минеральные (http://egrpr.esoil.ru/content/1dia.html)
+3. [SOIL_ADD_HORIZONS](https://github.com/akivo4ka/soil/blob/main/soil_add_horizons.xlsx) - Дополнительные свойства почвенных горизонтов (http://egrpr.esoil.ru/content/1dia.html)
+4. Почвенный профиль - предусмотреть таблицу на будущее (http://egrpr.esoil.ru/content/1dia.html) - В настоящий момент таблица не заполнена. Данные для заполнения можно взять из столбца PFRML таблицы SOIL_DATA
+5. [SOIL_MORPH](https://github.com/akivo4ka/soil/blob/main/soil_morph.xlsx) - Морфологические свойства почв (http://egrpr.esoil.ru/content/1svo.html)
+6. [SOIL_MORPH_ELEM](https://github.com/akivo4ka/soil/blob/main/soil_morph_elem.xlsx) - Свойства морфологических элементов почв (http://egrpr.esoil.ru/content/1svo.html)
+7. [SOIL_CHEM](https://github.com/akivo4ka/soil/blob/main/soil_chem.xlsx) - Химические свойства почв (http://egrpr.esoil.ru/content/1svo.html)
+8. [SOIL_PHYS](https://github.com/akivo4ka/soil/blob/main/soil_phys.xlsx) - Физические свойства почв (http://egrpr.esoil.ru/content/1svo.html)
+9. [SOIL_DATA](https://github.com/akivo4ka/soil/blob/main/soil_data.xlsx) - Описание свойств для каждого типа почвы (http://egrpr.esoil.ru/content/1DB.html)
+
+**Геометрическая часть**
+* Таблица полигонов (http://egrpr.esoil.ru/content/1geo.html)
+1. [SOIL_MAP](https://github.com/akivo4ka/soil/blob/main/soil_map.xlsx)
+2. [SOIL_MAP_LEGEND](https://github.com/akivo4ka/soil/blob/main/soil_map_legend.xlsx)
+3. [SOIL_MAP_PARENT_LEGEND](https://github.com/akivo4ka/soil/blob/main/soil_map_parent_legend.xlsx)
+* Таблица композиции полигонов (http://egrpr.esoil.ru/content/1DB.html#composition)
