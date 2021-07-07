@@ -1,5 +1,5 @@
 **Схема БД:**
-![ESOIL](https://user-images.githubusercontent.com/8759199/124812788-fcba0700-df5b-11eb-8ce8-0fce35d36464.png)
+![ESOIL](https://user-images.githubusercontent.com/8759199/124818183-9f758400-df62-11eb-8726-2ca02c558d87.png)
 
 Исходный файл схемы: 
 * скачать https://github.com/akivo4ka/soil/blob/main/esoil.drawio
@@ -26,12 +26,21 @@
 1. [SOIL_SEM](https://github.com/akivo4ka/soil/blob/main/soil_sem.xlsx) - Список почв ЕГРП - 205 типов почв (http://egrpr.esoil.ru/content/1sem.html) 
 2. [SOIL_MAIN_HORIZONS](https://github.com/akivo4ka/soil/blob/main/soil_main_horizons.xlsx) - Почвенные горизонты: органические, органо-минеральные, минеральные (http://egrpr.esoil.ru/content/1dia.html)
 3. [SOIL_ADD_HORIZONS](https://github.com/akivo4ka/soil/blob/main/soil_add_horizons.xlsx) - Дополнительные свойства почвенных горизонтов (http://egrpr.esoil.ru/content/1dia.html)
-4. Почвенный профиль - предусмотреть таблицу на будущее (http://egrpr.esoil.ru/content/1dia.html) - В настоящий момент таблица не заполнена. Данные для заполнения можно взять из столбца PFRML таблицы SOIL_DATA
+4. SOIL_PROFILE - Почвенный профиль - предусмотреть таблицу на будущее (http://egrpr.esoil.ru/content/1dia.html) - В настоящий момент таблица не заполнена. Данные для заполнения можно взять из столбца PFRML таблицы SOIL_DATA
 5. [SOIL_MORPH](https://github.com/akivo4ka/soil/blob/main/soil_morph.xlsx) - Морфологические свойства почв (http://egrpr.esoil.ru/content/1svo.html)
 6. [SOIL_MORPH_ELEM](https://github.com/akivo4ka/soil/blob/main/soil_morph_elem.xlsx) - Свойства морфологических элементов почв (http://egrpr.esoil.ru/content/1svo.html)
 7. [SOIL_CHEM](https://github.com/akivo4ka/soil/blob/main/soil_chem.xlsx) - Химические свойства почв (http://egrpr.esoil.ru/content/1svo.html)
 8. [SOIL_PHYS](https://github.com/akivo4ka/soil/blob/main/soil_phys.xlsx) - Физические свойства почв (http://egrpr.esoil.ru/content/1svo.html)
-9. [SOIL_DATA](https://github.com/akivo4ka/soil/blob/main/soil_data.xlsx) - Описание свойств для каждого типа почвы (http://egrpr.esoil.ru/content/1DB.html)
+
+**[SOIL_DATA]**(https://github.com/akivo4ka/soil/blob/main/soil_data.xlsx) - Описание свойств для каждого типа почвы (http://egrpr.esoil.ru/content/1DB.html)
+Описание некоторых колонок данной таблицы:
+* HISMMN - очень похоже на обозначение почевнных горизонтов, однако как их сопоставить, мне осталось непонятно (?)
+* HISMSM - дополнительное свойство почвенных горизонтов (SOIL_ADD_HORIZONS)
+* MOISTR-ADDMRF - морфологические свойства почв (SOIL_MORPH)
+* LOSA-TEXTPHS - химические свойства почв (SOIL_CHEM)
+* GRSCMP-ADPHYS - физические свойства почв (SOIL_PHYS)
+
+Можно заметить, что таблицы SOIL_MAIN_HORIZONS, SOIL_MORPH_ELEM не имеют связей с таблицей SOIL_DATA.
 
 **Геометрическая часть**
 * Таблица полигонов (http://egrpr.esoil.ru/content/1geo.html)
